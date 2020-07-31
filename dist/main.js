@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar tinycolor = __webpack_require__(/*! tinycolor2 */ \"./node_modules/tinycolor2/tinycolor.js\");\n\n\nconsole.log(\"hello from javascript!\");\n\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\nconsole.log(tinycolor(\"#000\"));\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar tinycolor = __webpack_require__(/*! tinycolor2 */ \"./node_modules/tinycolor2/tinycolor.js\");\n\nconsole.log(\"hello from javascript!\");\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\nconsole.log(tinycolor(\"#000\"));\nvar x = \"cat\";\nvar y = \"fish\";\nconsole.log(\"\".concat(x).concat(y));\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
