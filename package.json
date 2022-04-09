@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Kristofer-Henriquez/modern_javascript#readme",
   "dependencies": {
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
